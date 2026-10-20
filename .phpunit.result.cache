@@ -1,0 +1,1 @@
+{"version":2,"defects":[],"times":{"CsrfTest::testTokenIsCreatedAndAccepted":0.023,"CsrfTest::testDifferentTokenIsRejected":0.001,"CsrfTest::testTokenIsReplacedWhenRegenerated":0.005}}

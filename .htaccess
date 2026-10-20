@@ -1,0 +1,5 @@
+# Defense in depth for the beginner-friendly XAMPP subfolder setup.
+# In production, configure Apache's DocumentRoot to this project's /public folder.
+RewriteEngine On
+RewriteRule ^(app|bin|config|database|routes|storage|tests|vendor)(/|$) - [F,L,NC]
+RewriteRule ^(\.env|\.env\.example|\.git|\.gitignore|composer\.(json|lock)|README\.md|phpunit\.xml)$ - [F,L,NC]

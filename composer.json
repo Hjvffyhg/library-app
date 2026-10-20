@@ -1,0 +1,26 @@
+{
+  "name": "library-management/library-app",
+  "description": "A single-branch Library Management System built with plain PHP MVC.",
+  "type": "project",
+  "require": {
+    "php": ">=8.2",
+    "vlucas/phpdotenv": "^5.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    },
+    "files": [
+      "app/Helpers/functions.php"
+    ]
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
